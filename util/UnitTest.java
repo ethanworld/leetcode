@@ -20,4 +20,12 @@ public class UnitTest {
             System.out.println("successful!");
         }
     }
+
+    static public void EXPERT_EQ(boolean a, boolean b) {
+        if (a != b) {
+            throw new NumberFormatException("faild: " + a + " != " + b);
+        } else {
+            System.out.println("successful!");
+        }
+    }
 }
